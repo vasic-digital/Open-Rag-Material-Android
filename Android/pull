@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "TODO: Implement pulling from the cloud [IN_PROGRESS]"
+exit 1
