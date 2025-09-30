@@ -67,6 +67,7 @@ wget \
     --retry-on-http-error=503 \
     --waitretry=10 \
     --tries=20 \
+    --reject-regex=".*hl=(?!en$)[^&]*" \
     "$ADDRESS"
 
 # shellcheck disable=SC2181
